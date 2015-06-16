@@ -2,7 +2,7 @@
 """
 Created on Sun May 31 23:02:29 2015
 
-@author: HP
+@author: 'deepthi'
 """
 from Tkinter import Tk
 from tkFileDialog import askopenfilename
@@ -98,6 +98,6 @@ def main_function():
     get_sentiments = sentiment_analyze(tweets_without_stop)
     sentiment_frame = pd.DataFrame(get_sentiments.items())
     print sentiment_frame
-    sentiment_frame.to_csv("C:\Users\HP\Desktop\Ventes\CrayonData.csv")
+    sentiment_frame.to_csv("your csv file")
     #print get_sentiments
     
